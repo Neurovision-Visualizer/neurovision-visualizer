@@ -1,0 +1,4 @@
+/* CSS Variables for when we won't use tailwind */
+:root {
+  --primary: #20a4f3;
+}

@@ -1,0 +1,52 @@
+{
+  "name": "neurovision-visualizer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "lint:fix": "vue-cli-service lint --fix",
+    "test:e2e": "cypress open"
+  },
+  "dependencies": {
+    "autoprefixer": "^10",
+    "axios": "^0.27.2",
+    "core-js": "^3.8.3",
+    "d3": "^7.3.0",
+    "mosha-vue-toastify": "^1.0.23",
+    "d3-ease": "^3.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "v-onboarding": "^1.0.2",
+    "vue": "^3.2.13",
+    "vue-axios": "^3.4.1",
+    "vue-js-modal": "^2.0.1",
+    "vue-router": "^4.0.3",
+    "vue-shepherd": "^0.2.1",
+    "vue-toast-notification": "^3.0.2",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue-tour": "^2.0.0",
+    "vue3-tour": "^0.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@testing-library/vue": "^6.5.1",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-unit-jest": "^4.5.17",
+    "@vue/cli-service": "~5.0.0",
+    "cypress": "^9.5.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "prettier": "^2.4.1",
+    "typescript": "~3.9.3",
+    "vue-cli-plugin-tailwind": "~3.0.0",
+    "vue-jest": "^5.0.0-0"
+  }
+}
